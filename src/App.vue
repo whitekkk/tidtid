@@ -4,7 +4,7 @@
     <button @click="cal(1)">+</button>
     <button @click="cal(-1)">-</button>
     Cust Po : <input v-model="cs"> Input
-    <input v-model="inp" @input="test">
+    <input v-model="inp" @input="test" autofocus="autofocus">
     <button @click="convertJsonToXlsx" class="btn btn-danger">Export Xlsx</button>
     <br>
     <div class="di">
